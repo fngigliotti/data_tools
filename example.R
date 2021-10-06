@@ -26,10 +26,10 @@ source("functions/node_health.R")
 #It can contain any/all of your downloaded data files, just don't manipulate/add your own unrelated/altered files.
 #Unzip any zipped directories therein, but compressed csv files (csv.gz) don't need to be unzipped
 
-infile <- "~/Documents/data/meadows/Meadows V2"
+infile <- "~/test_data/sensor"
 
 #This is where you want your output to go
-outpath <- "~/Documents/plots/meadows"
+outpath <- "~/test_data/plots"
 
 freq <- "1 hour" #interval to summarize node health indicators of interest
 
